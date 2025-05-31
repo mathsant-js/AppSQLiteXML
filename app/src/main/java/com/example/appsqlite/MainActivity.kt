@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         // Arquivo XML usado para o desenvolvimento da view
         setContentView(R.layout.activity_main)
 
-        /* Variáveis dos campos que serão adicionados para o salvamento de dados do usuário
+        // Variáveis dos campos que serão adicionados para o salvamento de dados do usuário
         val edtNome:EditText = findViewById(R.id.edtNome)
         val edtEndereco:EditText = findViewById(R.id.edtEndereco)
         val edtBairro:EditText = findViewById(R.id.edtBairro)
@@ -41,16 +41,6 @@ class MainActivity : ComponentActivity() {
             intent.putExtra("observações", edtObservacoes.text.toString())
             intent.putExtra("data de cadastro", edtDataCadastro.text.toString())
             startActivity(intent)
-        }
-        */
-
-        enableEdgeToEdge()
-        setContent {
-            AppSQLiteTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                }
-            }
         }
     }
 }

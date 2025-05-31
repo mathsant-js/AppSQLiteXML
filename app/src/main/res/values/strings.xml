@@ -9,4 +9,11 @@
     <string name="btnCadastrar">Cadastrar</string>
     <string name="txtResposta">Confirmação dos Dados</string>
     <string name="btnConfirmar">Confirmar</string>
+
+    <string name="labelNome">Digite o seu nome</string>
+    <string name="labelEndereco">Digite o seu endereço</string>
+    <string name="labelBairro">Digite o seu bairro</string>
+    <string name="labelCep">Digite o seu CEP</string>
+    <string name="labelObservacoes">Observações</string>
+    <string name="labelDataCadastro">Data de cadastro</string>
 </resources>

@@ -9,4 +9,6 @@
     <item name="edtBairro" type="id">edtBairro</item>
     <item name="txtCep" type="id">txtCep</item>
     <item name="edtCep" type="id">edtCep</item>
+    <item name="txtResposta" type="id">txtResposta</item>
+    <item name="btnConfirmar" type="id">btnConfirmar</item>
 </resources>
